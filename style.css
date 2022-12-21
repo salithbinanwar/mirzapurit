@@ -1,0 +1,207 @@
+* {
+  cursor: url("./images/crosshair.cur"), default;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.head {
+  background-image: url("./images/home-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 100vh;
+  position: relative;
+}
+
+.whiteButton {
+  filter: invert(1);
+}
+
+nav .toUl .ulList ul li a {
+  transition: border-bottom 0.5s ease-in-out;
+}
+
+nav .toUl .ulList ul li a:hover {
+  border-bottom: 1px solid white;
+}
+
+.readMore .details {
+  position: absolute;
+  top: 50%;
+  transform: translate(0px, -50%);
+}
+.readMore h1 {
+  font-size: 7vmax;
+  line-height: 0.937em;
+  font-weight: bolder;
+}
+
+.readMore .details .straightLine {
+  margin: 30px 0 35px 0;
+}
+
+.readMore .details p {
+  font-style: italic;
+  font-size: 1.45vmax;
+  margin: 10px 0;
+}
+
+.readMore .details .about {
+  margin-bottom: 50px;
+}
+
+.readMore .button {
+  font-size: 14px;
+  padding: 14px 40px;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.readMore .button:hover {
+  background-color: #861115;
+}
+
+.works {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.works h2 {
+  margin-top: 10%;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.works p {
+  font-weight: 600;
+}
+
+.redding {
+  color: red;
+}
+
+.laptopBg {
+  background-image: url("./images/laptop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.laptopBg h1 {
+  padding-top: 20%;
+  padding-bottom: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 90px;
+}
+
+.progressDiv {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 30%;
+}
+
+.progressDiv p {
+  font-weight: bolder;
+}
+.reviews {
+  padding: 10%;
+  color: white;
+  background-color: #cc3636;
+}
+.reviews img {
+  border-radius: 50%;
+}
+.studentName {
+  padding-left: 15px;
+}
+
+.allCourses {
+  padding: 8%;
+  background-color: #f6f6f6;
+}
+
+.gallery {
+  padding: 3.4%;
+  color: white;
+  background-color: black;
+}
+
+.join {
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  background-color: #861115;
+}
+.joinButton {
+  margin-left: 50%;
+}
+.join .button {
+  font-size: 14px;
+  padding: 14px 20px;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+.join .button:hover {
+  background-color: #ffffff;
+  color: #b7161d;
+}
+
+/* footer area */
+.newFooter {
+  color: white;
+  background-color: #1b1a18;
+  padding-top: 5%;
+  padding-bottom: 4%;
+}
+
+.newFooter a {
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.newFooter a:hover {
+  color: #80171d;
+}
+.footPara {
+  margin-top: 2%;
+}
+.rightFoot {
+  /* margin-right: 2%; */
+}
+/* responsiveness */
+
+@media screen and(max-width: 1900px) {
+  body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  .mobile-proff {
+    width: 20%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .readMore h1 {
+    font-size: 70px;
+    font-weight: bolder;
+  }
+  .mobile-proff {
+    /* width: 20%; */
+    text-align: center;
+  }
+  .mobile-proff h2 {
+    font-weight: bolder;
+  }
+}
