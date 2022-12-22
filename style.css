@@ -1,6 +1,3 @@
-* {
-  cursor: url("./images/crosshair.cur"), default;
-}
 body {
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
@@ -140,7 +137,7 @@ nav .toUl .ulList ul li a:hover {
   background-color: #861115;
 }
 .joinButton {
-  margin-left: 50%;
+  margin-left: 20%;
 }
 .join .button {
   font-size: 14px;
@@ -193,6 +190,11 @@ nav .toUl .ulList ul li a:hover {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+  }
   .readMore h1 {
     font-size: 70px;
     font-weight: bolder;
@@ -203,5 +205,45 @@ nav .toUl .ulList ul li a:hover {
   }
   .mobile-proff h2 {
     font-weight: bolder;
+  }
+  /* experienceArea */
+  .experiences .laptopBg h1 {
+    font-weight: 120;
+    font-size: 70px;
+  }
+  .progressDiv {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  .join h4 {
+    padding-top: 4%;
+    font-size: 10px;
+    width: 100%;
+  }
+  .join .joinButton {
+    font-size: 10px;
+    margin-right: 12px;
+    /* padding-right: 20px; */
+  }
+
+  /* .experiences .experienceBar {
+  } */
+
+  .mGallery {
+    height: 560px;
+    width: 360px;
+  }
+
+  .laptopBg {
+    background-image: url("./images/laptop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  .allCourses {
+    padding: 0%;
   }
 }
