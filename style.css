@@ -195,6 +195,7 @@ nav .toUl .ulList ul li a:hover {
     height: 100%;
     overflow-x: hidden;
   }
+
   .readMore h1 {
     font-size: 70px;
     font-weight: bolder;
@@ -227,6 +228,10 @@ nav .toUl .ulList ul li a:hover {
     margin-right: 12px;
     /* padding-right: 20px; */
   }
+  .courseRow {
+    width: 100%;
+    margin-top: 10px;
+  }
 
   /* .experiences .experienceBar {
   } */
@@ -245,5 +250,6 @@ nav .toUl .ulList ul li a:hover {
   }
   .allCourses {
     padding: 0%;
+    width: 100%;
   }
 }
